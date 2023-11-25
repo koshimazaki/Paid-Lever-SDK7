@@ -1,10 +1,10 @@
-## Paid Lever: refactored scene in Decentraland SDK7
+## Paid Lever in Decentraland SDK7
 
 Interactive scene in Decentraland where a user can control a lever. The lever's movement triggers an animation of a bridge entity, activated by a cryptocurrency transaction using $MANA.
 
 ### Key Components used:
 
-- using DCL React for UI
+- DCL React for UI
 - crypto-utils-toolkit library and eth-connect to send transaction
 - [DCL SDK7](https://github.com/decentraland/js-sdk-toolchain/blob/d4f4c066ca68ea6373531141f7aad7d4be96c682/README.md#L1) to program the scene
   
