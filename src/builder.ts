@@ -3,9 +3,9 @@ import {
     Transform,
     GltfContainer,
     MeshRenderer,
-    MeshCollider
+    
   } from '@dcl/sdk/ecs'
-  import { Vector3,Color4,Quaternion } from '@dcl/sdk/math'
+  import { Vector3,Quaternion } from '@dcl/sdk/math'
 
   export function buildScene() {
     
