@@ -1,6 +1,6 @@
 ## Paid Lever in Decentraland SDK7
 
-Interactive scene in Decentraland where a user can control a lever. The lever's movement triggers an animation of a bridge entity, activated by a cryptocurrency transaction using $MANA.
+Interactive scene in Decentraland where a user can control a lever. The lever's movement triggers an animation of a bridge entity, activated by a cryptocurrency transaction using $MANA. Code refactored to SDK7.
 
 ### Key Components used:
 
