@@ -9,25 +9,7 @@ import {
 
   export function buildScene() {
     
-/*
 
-// Create the bridge entity
-const bridge1 = engine.addEntity();
-GltfContainer.create(bridge1, { src: 'models/Log_Bridge_01/Log_Bridge_01.glb'});
-MeshRenderer.create(bridge1);
-Transform.create(bridge1, {
-  position: Vector3.create(11.2, 2.2, 6.9),
-  rotation: Quaternion.create(
-    -9.158600493394588e-15,
-    -0.41761070489883423,
-    4.978307543979099e-8,
-    -0.9086260795593262
-  ),
-  scale: Vector3.create(2.23, 1.23, 1)
-});
-
-
-*/
     // Entity: FloorFantasyRocks
     const floorFantasyRocks = engine.addEntity()
     GltfContainer.create(floorFantasyRocks, { src: 'models/FloorFantasyRocks_03/FloorFantasyRocks_03.glb' })
@@ -56,43 +38,43 @@ Transform.create(bridge1, {
     })
       
 
-// Entity: StoneTopBlock3
-const stoneTopBlock3 = engine.addEntity()
-GltfContainer.create(stoneTopBlock3, { src: 'models/Pillar_Top_Stones_Corner_01/Pillar_Top_Stones_Corner_01.glb' })
-MeshRenderer.create(stoneTopBlock3)
-Transform.create(stoneTopBlock3, {
-  position: Vector3.create(9, 0, 12),
-  scale: Vector3.create(1.245723843574524, 1.434235692024231, 0.7579238414764404)
-})
+    // Entity: StoneTopBlock3
+    const stoneTopBlock3 = engine.addEntity()
+    GltfContainer.create(stoneTopBlock3, { src: 'models/Pillar_Top_Stones_Corner_01/Pillar_Top_Stones_Corner_01.glb' })
+    MeshRenderer.create(stoneTopBlock3)
+    Transform.create(stoneTopBlock3, {
+      position: Vector3.create(9, 0, 12),
+      scale: Vector3.create(1.245723843574524, 1.434235692024231, 0.7579238414764404)
+    })
 
-// Entity: StoneTopBlock2
-const stoneTopBlock2 = engine.addEntity()
-GltfContainer.create(stoneTopBlock2, { src: 'models/Pillar_Top_Stones_Corner_01/Pillar_Top_Stones_Corner_01.glb' })
-MeshRenderer.create(stoneTopBlock2)
-Transform.create(stoneTopBlock2, {
-  position: Vector3.create(16, 0, 4),
-  scale: Vector3.create(1, 1.4962525367736816, 0.9856662750244141)
-})
+    // Entity: StoneTopBlock2
+    const stoneTopBlock2 = engine.addEntity()
+    GltfContainer.create(stoneTopBlock2, { src: 'models/Pillar_Top_Stones_Corner_01/Pillar_Top_Stones_Corner_01.glb' })
+    MeshRenderer.create(stoneTopBlock2)
+    Transform.create(stoneTopBlock2, {
+      position: Vector3.create(16, 0, 4),
+      scale: Vector3.create(1, 1.4962525367736816, 0.9856662750244141)
+    })
 
-// Entity: DogStatue
-const dogStatue = engine.addEntity()
-GltfContainer.create(dogStatue, { src: 'models/PillarDog_01/PillarDog_01.glb' })
-MeshRenderer.create(dogStatue)
-Transform.create(dogStatue, {
-  position: Vector3.create(1.301210880279541, 2.4656124114990234, 2.1973533630371094),
-  rotation: Quaternion.create(1.108018303742572e-15, -0.7071068286895752, 8.429369557916289e-8, -0.7071068286895752),
-  scale: Vector3.create(1.0000016689300537, 1, 1.0000016689300537)
-})
+    // Entity: DogStatue
+    const dogStatue = engine.addEntity()
+    GltfContainer.create(dogStatue, { src: 'models/PillarDog_01/PillarDog_01.glb' })
+    MeshRenderer.create(dogStatue)
+    Transform.create(dogStatue, {
+      position: Vector3.create(1.301210880279541, 2.4656124114990234, 2.1973533630371094),
+      rotation: Quaternion.create(1.108018303742572e-15, -0.7071068286895752, 8.429369557916289e-8, -0.7071068286895752),
+      scale: Vector3.create(1.0000016689300537, 1, 1.0000016689300537)
+    })
 
-// Entity: CatStatue
-const catStatue = engine.addEntity()
-GltfContainer.create(catStatue, { src: 'models/PillarCat_01/PillarCat_01.glb' })
-MeshRenderer.create(catStatue)
-Transform.create(catStatue, {
-  position: Vector3.create(14.51323413848877, 2.4653825759887695, 2.5529298782348633),
-  rotation: Quaternion.create(-2.4085271740892887e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
-  scale: Vector3.create(1.0000030994415283, 1, 1.0000030994415283)
-})
+    // Entity: CatStatue
+    const catStatue = engine.addEntity()
+    GltfContainer.create(catStatue, { src: 'models/PillarCat_01/PillarCat_01.glb' })
+    MeshRenderer.create(catStatue)
+    Transform.create(catStatue, {
+      position: Vector3.create(14.51323413848877, 2.4653825759887695, 2.5529298782348633),
+      rotation: Quaternion.create(-2.4085271740892887e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
+      scale: Vector3.create(1.0000030994415283, 1, 1.0000030994415283)
+    })
 
   }
   

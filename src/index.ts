@@ -6,7 +6,7 @@ import { initAssetPacks } from '@dcl/asset-packs/dist/scene-entrypoint'
 //import { setupUi } from './ui'
 import { buildScene } from './builder'
 import {bridge} from './bridge'
-
+import { lever } from './ui'
 // You can remove this if you don't use any asset packs
 initAssetPacks(engine, pointerEventsSystem, {
   Animator,
@@ -17,12 +17,9 @@ initAssetPacks(engine, pointerEventsSystem, {
   GltfContainer
 })
 
-
-
 export function main() {
-  // Defining behavior. See `src/systems.ts` file.
+
 bridge
-  // draw UI. Here is the logic to spawn cubes.
-  //setupUi()
-  buildScene()
+lever
+  buildScene()  // 3D models 
 }
