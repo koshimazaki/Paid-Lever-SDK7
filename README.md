@@ -13,9 +13,10 @@ https://github.com/koshimazaki/Paid-Lever-SDK7/assets/18751916/7892ec34-4808-488
 ### Functionality
 Enables users to interact with a lever that, upon successful $MANA transaction, animates a bridge or other entities in the scene.
 
-## Guide how to set up a DCL scene
 
-# SDK7 Template scene
+# Guide how to set up a DCL scene
+
+## SDK7 Template scene
 
 ## Try it out
 
