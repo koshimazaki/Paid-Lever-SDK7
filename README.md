@@ -1,8 +1,8 @@
-#Paid Lever refactored scene in SDK7
+# Paid Lever refactored scene in SDK7
 
 Interactive scene in Decentraland where a user can control a lever. The lever's movement triggers an animation of a bridge entity, activated by a cryptocurrency transaction using $MANA.
 
-##Key Components used:
+## Key Components used:
 
 - using DCL React for UI
 - crypto-utils-toolkit library and eth-connect to send transaction
@@ -11,13 +11,14 @@ Interactive scene in Decentraland where a user can control a lever. The lever's 
 https://github.com/koshimazaki/Paid-Lever-SDK7/assets/18751916/7892ec34-4808-4883-bd7f-28df7a7e1f4a
 
 
-*DCL React for UI: Implements ReactJS to build a dynamic user interface, enhancing the interactive experience within the Decentraland scene.
-Crypto Utilities: Utilizes crypto-utils-toolkit and eth-connect for handling $MANA transactions. These tools streamline the process of executing and verifying cryptocurrency transactions within the virtual environment.
-*Decentraland SDK7: Employs the latest Decentraland SDK to design and program the scene. This includes defining the physics, interactions, and visual elements of the lever and the corresponding animated entities.
-##Functionality
+**DCL React for UI: Implements ReactJS to build a dynamic user interface, enhancing the interactive experience within the Decentraland scene.
+**Crypto Utilities: Utilizes crypto-utils-toolkit and eth-connect for handling $MANA transactions. These tools streamline the process of executing and verifying cryptocurrency transactions within the virtual environment.
+**Decentraland SDK7: Employs the latest Decentraland SDK to design and program the scene. This includes defining the physics, interactions, and visual elements of the lever and the corresponding animated entities.
+
+## Functionality
 The scene allows users to interact with a virtual lever. Upon moving the lever, and upon successful completion of a $MANA transaction, it triggers an animation sequence. This sequence can be a moving bridge or other entity transformations within the scene, demonstrating the integration of blockchain-based transactions with real-time virtual world interactions.
 
-##Guide how to set up a scene
+## Guide how to set up a scene
 
 # SDK7 Template scene
 
